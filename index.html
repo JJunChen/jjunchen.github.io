@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Jiajun Chen | Software Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+  <link href="./css/stylesheet.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top" />
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger active" href="#about">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#project">
+            Projects
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">
+            Skills
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">
+            Experience
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">
+            Education
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0">
+          Jiajun
+          <span class="text-primary">Chen</span>
+        </h1>
+        <div class="subheading mb-5">
+          San Leandro · California · (510) 813-0968 ·
+          <span>jchen0318@gmail.com</span>
+        </div>
+        <p class="mb-5">
+          I am software developer who is curious, self-starting, and willing to take risk for greater result. I have developed responsive
+          and user interactive applications using modern frameworks like React, and backend servers and API using Node.js/Express.js.
+        </p>
+        <ul class="list-inline list-social-icons mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/JJunChen0318" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" />
+                <i class="fab fa-facebook fa-stack-1x fa-inverse" />
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/jiajun-chen" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" />
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse" />
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/JJunChen" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" />
+                <i class="fab fa-github fa-stack-1x fa-inverse" />
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
+      <div class="my-auto">
+        <h2 class="mb-5">Projects</h2>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Twittler 2.0 </h3>
+            <a href="https://github.com/JJunChen/Feed-Service" target="_blank">
+              Github
+            </a>
+            <div class="subheading mb-3">
+              Emulate the feed microservice of Twitter's Architecture
+            </div>
+            <ul>
+              <li>
+                Architected the microservice with Node/Express, Redis, and Cassandra to manage feeds for all users
+              </li>
+              <li>
+                Dockerized application into Docker Container and deployed to AWS EC2
+              </li>
+              <li>
+                Stress-tested microservice with JMeter and monitored a max throughput of 1,500 requests-per-second on New Relic
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Packuno </h3>
+            <a>Live </a>
+            <span> | </span>
+            <a href="https://github.com/JJunChen/packuno" target="_blank">
+              Github
+            </a>
+            <div class="subheading mb-3">
+              Packing list application for International travelers
+            </div>
+            <ul>
+              <li>
+                Integrated React-Router into a single page app to do client side rendering to reduce request bandwidth between client and
+                server
+              </li>
+              <li>
+                Designed new components on top of existing React/Redux and PostgreSQL codebase to show more information to users about the
+                trip
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Kick-it</h3>
+            <a href="https://kick-it-whereat.herokuapp.com/" target="_blank">
+              Live{" "}
+            </a>
+            <span> | </span>
+            <a href="https://github.com/JJunChen/Kick-It" target="_blank">
+              Github
+            </a>
+            <div class="subheading mb-3">
+              Event finding application for San Francisco Area
+            </div>
+            <ul>
+              <li>
+                Designed front-end components with React for fast and responsive rendering
+              </li>
+              <li>
+                Transformed data from EventBrite API and stored into PostgreSQL database for more efficient future querying
+              </li>
+              <li>
+                Designed user interface with Bootstrap for simple and manageable components
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline list-icons">
+          <li class="list-inline-item">
+            <i class="devicons devicon-html5-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-css3-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-javascript-plain colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-react-original-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-nodejs-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-express-original-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-jquery-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-git-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-heroku-original-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-mongodb-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-mysql-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-postgresql-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-redis-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-webpack-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-amazonwebservices-plain-wordmark colored" />
+          </li>
+          <li class="list-inline-item">
+            <i class="devicons devicon-bootstrap-plain-wordmark colored" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">Experience</h2>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Assistant Engineer</h3>
+            <div class="subheading mb-3">O'Dell Engineering</div>
+            <ul>
+              <li>
+                Prepared Grading and Improvement plan for hundreds of home and streets in a new development.
+              </li>
+              <li>
+                Coordinated with both internal and external teams to resolve design conflicts.
+              </li>
+              <li>
+                Managed plan filing system using Procore to ensure contractors having access to the latest and greating plan sets.
+              </li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Auguest 2014 - September 2017</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-5">Education</h2>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">University of California, Davis</h3>
+            <h3 class="subheading mb-3">
+              Bachelor of Science in Civil Engineering
+            </h3>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2009 - December 2013</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Hack Reactor</h3>
+            <h3 class="subheading mb-3">Software Engineering Immersive</h3>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">October 2017 - January 2018</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
