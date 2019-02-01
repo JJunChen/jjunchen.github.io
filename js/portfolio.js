@@ -1,6 +1,5 @@
 (function($) {
   "use strict"; // Start of use strict
-  console.log($('body'))
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (

@@ -121,7 +121,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -157,4 +157,8 @@ p {
 
 .nav-item {
   font-size: 1.3rem;
+}
+
+.resume-date {
+  justify-content: flex-end;
 }
